@@ -1,0 +1,39 @@
+header {
+	display: block;
+	position: ;
+	
+}
+
+.left-header {
+	display: inline;
+	/* float: left; */
+}
+
+body {
+	padding-top: 200px;
+	position: static;
+}
+
+.right-header {
+	display: inline;
+	float: right;
+	width: auto;
+	
+}
+
+#search-string, img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#logo {
+	width: 25em;
+}
+
+.button {
+	position: relative;
+	margin-left: 33%;
+	margin-right: auto;
+	
+}
