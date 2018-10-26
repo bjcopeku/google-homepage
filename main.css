@@ -1,6 +1,8 @@
 header {
 	display: block;
-	position: ;
+	position: absolute;
+	width: 100%;
+	margin-top: -100px;
 	
 }
 
@@ -10,18 +12,18 @@ header {
 }
 
 body {
-	padding-top: 200px;
+	padding-top: 100px;
 	position: static;
 }
 
 .right-header {
 	display: inline;
 	float: right;
-	width: auto;
+	margin-right: 10px;
 	
 }
 
-#search-string, img {
+#search-string {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -29,6 +31,9 @@ body {
 
 #logo {
 	width: 25em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .button {
