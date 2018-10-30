@@ -1,40 +1,44 @@
 <!Doctype html>
 <html>
-
 <head>
   <title>Google Remake</title>
   <link type="text/css" rel="stylesheet" href="main.css" />
 </head>
 
-<header>
-  <div class="left-header">
-    <a href="foo">About</a>
-	<a href="store">Store</a>
-  </div>
-  <div style="width: 33%; display: inline;"></div>
-  <div class="right-header">
-	<a href="foo">Gmail</a>
-	<a href="foo">Images</a>
-	<img src="images/apps.png" width=25px />
-	<img src="images/notification.png" width=25px />
-	<img src="images/x.png" width=25px />
-  </div>
-
-</header>
+<div class="nav-bar">
+  <ul class="header"> <!-- class="left-header"> -->
+    <li><a href="#">About</a></li>
+		<li><a href="store">Store</a></li>
+  	<li class="right"><img src="images/x.png" width=25px></li>
+		<li class="right"><img src="images/notification.png" width=25px></li>
+		<li class="right"><img src="images/google-apps.png" width=25px></li>
+		<li class="right"><a href="#">Images</a></li>
+		<li class="right"><a href="#">Gmail</a></li>
+		</ul>
+</div>
 
 <body>
-  <img id="logo" src="images/Google-logo.png" alt="Google Logo Image" width=600px />
+<div class="main">
+  <img id="logo" src="images/Google-logo.png" alt="Google Logo Image">
   <form action="" method="get" class="search">
-	<input type="text" name="search-string" id="search-string" required size="60" />
+	<input type="text" name="search-string" id="search-string" required size="100">
 	
-	<div class=button>
-	  <input type="button" name="search" value="Google Search" />
-	  <input type="button" name="lucky" value="I'm Feeling Lucky" />
+	<div class="button">
+	  <input type="button" name="search" value="Google Search">
+	  <input type="button" name="lucky" value="I'm Feeling Lucky">
 	</div>
-
-
   </form>  
-  
+</div>
+
+<div class="nav-footer-bar">
+	<ul class="footer">
+		<li><a href="#">Advertising</a></li>
+		<li><a href="#">Business</a></li>
+		<li class="right"><a href="#">Privacy</a></li>
+		<li class="right"><a href="#">Terms</a></li>
+		<li class="right"><a href="#">Settings</a></li>
+	</ul>
+</div>
+
 </body>
-  
 </html>
